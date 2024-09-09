@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Gymmie</string>
+    <string name="appTitle">Welcome to Gymmie</string>
+
+    <string name="usernamehint">username</string>
+    <string name="registerBtn">Register</string>
+    <string name="uname">Username: </string>
+    <string name="signin">Continue</string>
+    <string name="txtGetHeight">Height</string>
+    <string name="txtGetWeight">Weight</string>
+    <string name="welcome">Welcome, username</string>
+    <string name="txtExercise">Exercise Name</string>
+    <string name="txtWeight">Weight: </string>
+    <string name="txtReps">Reps: </string>
+    <string name="txtSet">Sets: </string>
+    <string name="input">Log Set</string>
+
+
+    <string name="chest">Chest</string>
+
+    <string name="back">Back</string>
+
+    <string name="shoulders">Shoulders</string>
+
+
+    <string name="legs">Legs</string>
+
+
+    <string name="biceps">Biceps</string>
+    <string name="triceps">Triceps</string>
+    <string name="calves">Calves</string>
+    <string name="editWeight" />
+    <string name="editSets" />
+    <string name="editReps" />
+    <string name="txtDate" />
+    <string name="editDate" />
+    <string name="showProgress" />
+</resources>

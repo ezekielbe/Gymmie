@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Gymmie" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:fontFamily">sans-serif</item>
+        <!-- Add other theme attributes here if necessary -->
+    </style>
+
+    <!-- Application theme that inherits from Base.Theme.Gymmie -->
+    <style name="Theme.Gymmie" parent="Base.Theme.Gymmie" />
+
+    <!-- Compatibility theme for older versions, if needed -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:fontFamily">sans-serif</item>
+        <!-- Add other theme attributes here if necessary -->
+    </style>
+</resources>

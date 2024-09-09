@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/project"
+    tools:context=".MainMenu">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtWelcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What are we working on today?"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/chestBtn"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:textSize="20dp"
+                android:text="@string/chest"
+                android:textStyle="bold"
+                android:backgroundTint="@color/darkpurple"/>
+
+            <Button
+                android:id="@+id/middleBtn"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:textSize="20dp"
+                android:text="Middle Back"
+                android:textStyle="bold"
+                android:backgroundTint="@color/darkpurple"/>
+            <Button
+                android:id="@+id/lowerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:textSize="20dp"
+                android:text="Lower Back"
+                android:textStyle="bold"
+                android:backgroundTint="@color/darkpurple"/>
+
+            <Button
+                android:id="@+id/hamstringsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:textSize="20dp"
+                android:text="Hamstrings"
+                android:textStyle="bold"
+                android:backgroundTint="@color/darkpurple" />
+            <Button
+                android:id="@+id/quadsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:textSize="20dp"
+                android:text="Quads"
+                android:textStyle="bold"
+                android:backgroundTint="@color/darkpurple" />
+            <Button
+                android:id="@+id/latsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:textSize="20dp"
+                android:text="Lats"
+                android:textStyle="bold"
+                android:backgroundTint="@color/darkpurple" />
+            <Button
+                android:id="@+id/glutesBtn"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:textSize="20dp"
+                android:text="Glutes"
+                android:textStyle="bold"
+                android:backgroundTint="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/shouldersBtn"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:textSize="20dp"
+                android:text="@string/shoulders"
+                android:textStyle="bold"
+                android:backgroundTint="@color/darkpurple"/>
+
+            <Button
+                android:id="@+id/bicepsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:textSize="20dp"
+                android:text="@string/biceps"
+                android:textStyle="bold"
+                android:backgroundTint="@color/darkpurple"/>
+
+            <Button
+                android:id="@+id/tricepsBtn"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:textSize="20dp"
+                android:text="@string/triceps"
+                android:textStyle="bold"
+                android:backgroundTint="@color/darkpurple" />
+
+            <Button
+                android:id="@+id/calvesBtn"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:textSize="20dp"
+                android:text="@string/calves"
+                android:textStyle="bold"
+                android:backgroundTint="@color/darkpurple"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
